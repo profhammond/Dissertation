@@ -1,0 +1,21 @@
+# Large scientific inputs belong in Drive, referenced by hash
+*.npy
+*.npz
+*.keras
+*.h5
+*.hdf5
+*.weights
+*.jpg
+*.jpeg
+*.png
+*.tif
+*.tiff
+*.zip
+/content/
+datasets/
+models/
+heatmaps/
+__pycache__/
+.ipynb_checkpoints/
+.env
+credentials*.json

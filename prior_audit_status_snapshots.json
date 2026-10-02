@@ -1,0 +1,53 @@
+[
+  {
+    "local_bundle_category": "bundle",
+    "status": {
+      "completed_utc": "2026-10-01T19:24:43.353951+00:00",
+      "internal_rows": 23040,
+      "cam_comparisons_verified": 7680,
+      "remaining_method_rows": 15360,
+      "remaining_baseline_id_mismatches": 11520,
+      "canonical_metrics_unchanged": true,
+      "original_sources_unchanged": true,
+      "models_retrained": false,
+      "maps_regenerated": false,
+      "cam_provenance_integration_authorized": true,
+      "remaining_method_numerical_reproduction_authorized": false,
+      "full_corpus_integration_authorized": false,
+      "run_complete": true,
+      "validation_passed": true,
+      "validation_scope": "CAM provenance consolidation and remaining-method inventory only"
+    }
+  },
+  {
+    "local_bundle_category": "remaining",
+    "status": {
+      "completed_utc": "2026-10-02T00:59:13.278715+00:00",
+      "audit_execution_complete": true,
+      "comparisons_inspected": 15360,
+      "source_files_unchanged": true,
+      "remaining_method_canonical_reproduction_passed": false,
+      "canonical_integration_authorized": false,
+      "full_corpus_integration_authorized": false,
+      "models_retrained": false,
+      "maps_generated": false,
+      "scope": "Remaining-method existing-array and documented-protocol audit; diagnostic assumptions are not provenance validation"
+    }
+  },
+  {
+    "local_bundle_category": "historical",
+    "status": {
+      "completed_utc": "2026-10-02T02:34:49.184295+00:00",
+      "audit_execution_complete": true,
+      "comparisons_inspected": 15360,
+      "source_files_unchanged": true,
+      "historical_comparison_code_recovered": true,
+      "attribution_generation_independently_verified": false,
+      "canonical_integration_authorized": false,
+      "full_corpus_integration_authorized": false,
+      "maps_generated": false,
+      "models_retrained": false,
+      "scope": "Historical function reproduction and available intended pairs only"
+    }
+  }
+]

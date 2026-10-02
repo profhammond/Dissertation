@@ -1,0 +1,4 @@
+manuscript_item,source,status,remaining_evidence
+Chapter 4 attribution-method mean EDI table,internal_manifest_provenance_corrected.csv,numerical agreement at six decimals; partial provenance,remaining-method map provenance; precise manuscript label
+Chapter 4 qualitative attribution galleries,legacy EDIResultsDF.csv and heatmap paths in recovered notebook,unresolved,"exact rows, figure bytes, map hashes, code and configuration matching"
+Appendix D corpus counts,current manuscript,full corpus evidence pending,external manifest and model inventory
