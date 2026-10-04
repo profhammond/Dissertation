@@ -1,0 +1,9 @@
+configuration,method,lowest_edi_condition,lowest_mean_edi,highest_edi_condition,highest_mean_edi,spearman_with_pooled_order,ordering
+combined,gradcam,dullrazor,0.3898004825123523,dl_preprocess,0.7859516606152097,1.0,dullrazor > navier_stokes > telea > hdbmie > diffusion > dl_preprocess
+combined,gradcampp,telea,0.6799948045440811,diffusion,0.7553034790389791,0.14285714285714288,telea > navier_stokes > dl_preprocess > hdbmie > dullrazor > diffusion
+ham,gradcam,diffusion,0.3050294925248768,dl_preprocess,0.6740530840047341,0.2571428571428572,diffusion > navier_stokes > telea > dullrazor > hdbmie > dl_preprocess
+ham,gradcampp,dullrazor,0.6825724326380598,hdbmie,0.7584745843548467,0.14285714285714288,dullrazor > dl_preprocess > telea > diffusion > navier_stokes > hdbmie
+isic,gradcam,navier_stokes,0.3573103418576783,diffusion,0.7430039360539309,0.8857142857142858,navier_stokes > dullrazor > telea > hdbmie > dl_preprocess > diffusion
+isic,gradcampp,telea,0.6767298402222705,hdbmie,0.7693195114513135,0.5428571428571429,telea > navier_stokes > dullrazor > dl_preprocess > diffusion > hdbmie
+train_ham_test_isic,gradcam,dullrazor,0.4878969628410995,diffusion,0.6748811885421471,0.942857142857143,dullrazor > navier_stokes > telea > hdbmie > dl_preprocess > diffusion
+train_ham_test_isic,gradcampp,diffusion,0.6999898775005405,telea,0.7277128550518597,0.08571428571428573,diffusion > dullrazor > navier_stokes > dl_preprocess > hdbmie > telea
